@@ -8,17 +8,17 @@ class AppTheme {
     useMaterial3: true,
     brightness: Brightness.light,
     primaryColor: Apppallet.appBar,
-    fontFamily: 'Poppins',
-    scaffoldBackgroundColor: Colors.white70,
-    textTheme: AppTextTheme.lightTextTheme,
+    // fontFamily: 'Poppins',
+    scaffoldBackgroundColor: Colors.white,
+    // textTheme: AppTextTheme.lightTextTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
     primaryColor: Colors.black87,
-    fontFamily: GoogleFonts.handjet().fontFamily,
+    // fontFamily: GoogleFonts.handjet().fontFamily,
     scaffoldBackgroundColor: Colors.black54,
-    textTheme: AppTextTheme.darkTextTheme,
+    // textTheme: AppTextTheme.darkTextTheme,
   );
 }

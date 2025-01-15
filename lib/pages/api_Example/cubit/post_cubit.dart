@@ -36,7 +36,7 @@ class PostCubit extends Cubit<PostState> {
   Future<void> postPost(PostModel post) async {
     try {
       emit(PostLoading());
-      print(jsonEncode(post.toJson()));
+
       final response = await http.post(
           Uri.parse(
               "https://677ff57e0476123f76a8ec27.mockapi.io/api/post/post"),
